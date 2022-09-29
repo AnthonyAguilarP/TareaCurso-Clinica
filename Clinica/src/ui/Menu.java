@@ -12,7 +12,10 @@ public class Menu implements IMenu{
     @Override
     public void Menu(){
         System.out.println("_________________________________________________________________________________");
-        System.out.print("1.Contratar servicio\n2.Ver servicio\n3.Salir\nEscoja la opcion deseada: ");
+        System.out.print("1.Contratar servicio"
+                + "\n2.Ver servicio"
+                + "\n3.Salir"
+                + "\nEscoja la opcion deseada: ");
     }
     
     @Override
